@@ -1,6 +1,6 @@
 # cold_start
 
-A new Flutter project.
+A Flutter example application demonstrating multiple packages in a monorepo.
 
 ## Getting Started
 
