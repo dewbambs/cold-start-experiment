@@ -11,20 +11,18 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:cold_start/main.dart';
 
 void main() {
-  testWidgets('Counter increments smoke test', (WidgetTester tester) async {
-    // Build our app and trigger a frame.
+  testWidgets('Shows splash then list view', (WidgetTester tester) async {
     await tester.pumpWidget(const MyApp());
 
-    // Verify that our counter starts at 0.
-    expect(find.text('0'), findsOneWidget);
-    expect(find.text('1'), findsNothing);
+    // Initially the flutter splash should be visible.
+    expect(find.byType(FlutterLogo), findsOneWidget);
+    expect(find.text('Device Info Example'), findsNothing);
 
-    // Tap the '+' icon and trigger a frame.
-    await tester.tap(find.byIcon(Icons.add));
-    await tester.pump();
+    // Wait for the splash duration.
+    await tester.pump(const Duration(seconds: 1));
+    await tester.pumpAndSettle();
 
-    // Verify that our counter has incremented.
-    expect(find.text('0'), findsNothing);
-    expect(find.text('1'), findsOneWidget);
+    // After the delay the list view should appear.
+    expect(find.text('Device Info Example'), findsOneWidget);
   });
 }
