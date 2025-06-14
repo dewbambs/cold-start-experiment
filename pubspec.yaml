@@ -30,7 +30,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+# Example packages
+  device_info_example:
+    path: packages/device_info_example
+  url_launcher_example:
+    path: packages/url_launcher_example
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.

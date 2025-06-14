@@ -1,0 +1,12 @@
+name: url_launcher_example
+description: A demo using url_launcher
+version: 0.0.1
+publish_to: 'none'
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  url_launcher: ^6.2.5
+flutter:
+
