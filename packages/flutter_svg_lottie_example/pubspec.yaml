@@ -1,0 +1,13 @@
+name: flutter_svg_lottie_example
+description: A demo using flutter_svg and lottie
+version: 0.0.1
+publish_to: 'none'
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.1.0
+  lottie: ^3.3.1
+flutter:
+

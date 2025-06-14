@@ -1,0 +1,12 @@
+name: flutter_cache_manager_example
+description: A demo using flutter_cache_manager
+version: 0.0.1
+publish_to: 'none'
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_cache_manager: ^3.4.1
+flutter:
+

@@ -1,0 +1,13 @@
+name: carousel_slider_example
+description: A demo using carousel_slider and percent_indicator
+version: 0.0.1
+publish_to: 'none'
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  carousel_slider: ^5.1.1
+  percent_indicator: ^4.2.5
+flutter:
+
