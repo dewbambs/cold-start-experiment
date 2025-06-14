@@ -1,0 +1,13 @@
+name: hive_example
+description: A demo using hive
+version: 0.0.1
+publish_to: 'none'
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+flutter:
+

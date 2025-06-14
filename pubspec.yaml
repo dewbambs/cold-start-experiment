@@ -35,6 +35,36 @@ dependencies:
     path: packages/device_info_example
   url_launcher_example:
     path: packages/url_launcher_example
+  hive_example:
+    path: packages/hive_example
+  camera_example:
+    path: packages/camera_example
+  sqflite_example:
+    path: packages/sqflite_example
+  video_player_example:
+    path: packages/video_player_example
+  carousel_slider_example:
+    path: packages/carousel_slider_example
+  dots_indicator_example:
+    path: packages/dots_indicator_example
+  flutter_cache_manager_example:
+    path: packages/flutter_cache_manager_example
+  flutter_downloader_example:
+    path: packages/flutter_downloader_example
+  flutter_staggered_grid_view_example:
+    path: packages/flutter_staggered_grid_view_example
+  flutter_svg_lottie_example:
+    path: packages/flutter_svg_lottie_example
+  http_example:
+    path: packages/http_example
+  image_picker_example:
+    path: packages/image_picker_example
+  in_app_review_example:
+    path: packages/in_app_review_example
+  get_it_example:
+    path: packages/get_it_example
+  intl_logger_example:
+    path: packages/intl_logger_example
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.

@@ -1,6 +1,21 @@
 import 'package:flutter/material.dart';
 import 'package:device_info_example/device_info_example.dart';
 import 'package:url_launcher_example/url_launcher_example.dart';
+import 'package:hive_example/hive_example.dart';
+import 'package:camera_example/camera_example.dart';
+import 'package:sqflite_example/sqflite_example.dart';
+import 'package:video_player_example/video_player_example.dart';
+import 'package:carousel_slider_example/carousel_slider_example.dart';
+import 'package:dots_indicator_example/dots_indicator_example.dart';
+import 'package:flutter_cache_manager_example/flutter_cache_manager_example.dart';
+import 'package:flutter_downloader_example/flutter_downloader_example.dart';
+import 'package:flutter_staggered_grid_view_example/flutter_staggered_grid_view_example.dart';
+import 'package:flutter_svg_lottie_example/flutter_svg_lottie_example.dart';
+import 'package:http_example/http_example.dart';
+import 'package:image_picker_example/image_picker_example.dart';
+import 'package:in_app_review_example/in_app_review_example.dart';
+import 'package:get_it_example/get_it_example.dart';
+import 'package:intl_logger_example/intl_logger_example.dart';
 
 void main() {
   runApp(const MyApp());
@@ -50,6 +65,21 @@ class MyHomePage extends StatelessWidget {
     final examples = <String, WidgetBuilder>{
       "Device Info Example": (context) => const DeviceInfoExamplePage(),
       "URL Launcher Example": (context) => const UrlLauncherExamplePage(),
+      "Hive Example": (context) => const HiveExamplePage(),
+      "Camera Example": (context) => const CameraExamplePage(),
+      "Sqflite Example": (context) => const SqfliteExamplePage(),
+      "Video Player Example": (context) => const VideoPlayerExamplePage(),
+      "Carousel Slider Example": (context) => const CarouselSliderExamplePage(),
+      "Dots Indicator Example": (context) => const DotsIndicatorExamplePage(),
+      "Cache Manager Example": (context) => const FlutterCacheManagerExamplePage(),
+      "Downloader Example": (context) => const FlutterDownloaderExamplePage(),
+      "Staggered Grid Example": (context) => const FlutterStaggeredGridViewExamplePage(),
+      "SVG & Lottie Example": (context) => const FlutterSvgLottieExamplePage(),
+      "HTTP Example": (context) => const HttpExamplePage(),
+      "Image Picker Example": (context) => const ImagePickerExamplePage(),
+      "In App Review Example": (context) => const InAppReviewExamplePage(),
+      "GetIt Example": (context) => const GetItExamplePage(),
+      "Intl & Logger Example": (context) => IntlLoggerExamplePage(),
     };
 
     return Scaffold(
