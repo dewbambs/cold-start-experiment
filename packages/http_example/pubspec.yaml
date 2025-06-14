@@ -1,0 +1,12 @@
+name: http_example
+description: A demo using http
+version: 0.0.1
+publish_to: 'none'
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.1
+flutter:
+

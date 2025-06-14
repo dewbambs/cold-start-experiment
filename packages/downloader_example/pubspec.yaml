@@ -1,0 +1,12 @@
+name: downloader_example
+description: A demo using flutter_downloader
+version: 0.0.1
+publish_to: 'none'
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_downloader: ^1.11.6
+flutter:
+

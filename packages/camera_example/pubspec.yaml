@@ -1,0 +1,12 @@
+name: camera_example
+description: A demo using camera
+version: 0.0.1
+publish_to: 'none'
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.11.0
+flutter:
+

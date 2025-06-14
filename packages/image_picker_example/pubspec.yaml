@@ -1,0 +1,12 @@
+name: image_picker_example
+description: A demo using image_picker
+version: 0.0.1
+publish_to: 'none'
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^1.1.1
+flutter:
+

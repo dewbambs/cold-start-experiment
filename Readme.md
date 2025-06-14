@@ -1,6 +1,9 @@
 # cold_start
 
-A new Flutter project.
+A Flutter example application demonstrating multiple packages in a monorepo.
+Only the Android platform is included. Each package in `packages/` contains a
+minimal demo for a specific Flutter plugin. The main app lists all demos so you
+can explore them easily.
 
 ## Getting Started
 
