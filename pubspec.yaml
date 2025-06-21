@@ -92,6 +92,26 @@ flutter:
   # the material Icons class.
   uses-material-design: true
 
+  # Enable deferred components for dynamic feature delivery
+  deferred-components:
+    - name: device_info_example
+    - name: url_launcher_example
+    - name: hive_example
+    - name: camera_example
+    - name: sqflite_example
+    - name: video_player_example
+    - name: carousel_slider_example
+    - name: dots_indicator_example
+    - name: flutter_cache_manager_example
+    - name: flutter_downloader_example
+    - name: flutter_staggered_grid_view_example
+    - name: flutter_svg_lottie_example
+    - name: http_example
+    - name: image_picker_example
+    - name: in_app_review_example
+    - name: get_it_example
+    - name: intl_logger_example
+
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg

@@ -1,0 +1,8 @@
+plugins {
+    id "com.android.dynamic-feature"
+}
+
+android {
+    compileSdk = 34
+}
+
