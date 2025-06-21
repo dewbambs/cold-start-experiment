@@ -30,41 +30,41 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-# Example packages
-  device_info_example:
-    path: packages/device_info_example
-  url_launcher_example:
-    path: packages/url_launcher_example
-  hive_example:
-    path: packages/hive_example
-  camera_example:
-    path: packages/camera_example
-  sqflite_example:
-    path: packages/sqflite_example
-  video_player_example:
-    path: packages/video_player_example
-  carousel_slider_example:
-    path: packages/carousel_slider_example
-  dots_indicator_example:
-    path: packages/dots_indicator_example
-  flutter_cache_manager_example:
-    path: packages/flutter_cache_manager_example
-  flutter_downloader_example:
-    path: packages/flutter_downloader_example
-  flutter_staggered_grid_view_example:
-    path: packages/flutter_staggered_grid_view_example
-  flutter_svg_lottie_example:
-    path: packages/flutter_svg_lottie_example
-  http_example:
-    path: packages/http_example
-  image_picker_example:
-    path: packages/image_picker_example
-  in_app_review_example:
-    path: packages/in_app_review_example
-  get_it_example:
-    path: packages/get_it_example
-  intl_logger_example:
-    path: packages/intl_logger_example
+
+  # device_info_example:
+  #   path: packages/device_info_example
+  # url_launcher_example:
+  #   path: packages/url_launcher_example
+  # hive_example:
+  #   path: packages/hive_example
+  # camera_example:
+  #   path: packages/camera_example
+  # sqflite_example:
+  #   path: packages/sqflite_example
+  # video_player_example:
+  #   path: packages/video_player_example
+  # carousel_slider_example:
+  #   path: packages/carousel_slider_example
+  # dots_indicator_example:
+  #   path: packages/dots_indicator_example
+  # flutter_cache_manager_example:
+  #   path: packages/flutter_cache_manager_example
+  # flutter_downloader_example:
+  #   path: packages/flutter_downloader_example
+  # flutter_staggered_grid_view_example:
+  #   path: packages/flutter_staggered_grid_view_example
+  # flutter_svg_lottie_example:
+  #   path: packages/flutter_svg_lottie_example
+  # http_example:
+  #   path: packages/http_example
+  # image_picker_example:
+  #   path: packages/image_picker_example
+  # in_app_review_example:
+  #   path: packages/in_app_review_example
+  # get_it_example:
+  #   path: packages/get_it_example
+  # intl_logger_example:
+  #   path: packages/intl_logger_example
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -95,22 +95,56 @@ flutter:
   # Enable deferred components for dynamic feature delivery
   deferred-components:
     - name: device_info_example
+      libraries:
+        - package:device_info_example/device_info_example.dart
     - name: url_launcher_example
+      libraries:
+        - package:url_launcher_example/url_launcher_example.dart
     - name: hive_example
+      libraries:
+        - package:hive_example/hive_example.dart
     - name: camera_example
+      libraries:
+        - package:camera_example/camera_example.dart
     - name: sqflite_example
+      libraries:
+        - package:sqflite_example/sqflite_example.dart
     - name: video_player_example
+      libraries:
+        - package:video_player_example/video_player_example.dart
     - name: carousel_slider_example
+      libraries:
+        - package:carousel_slider_example/carousel_slider_example.dart
     - name: dots_indicator_example
+      libraries:
+        - package:dots_indicator_example/dots_indicator_example.dart
     - name: flutter_cache_manager_example
+      libraries:
+        - package:flutter_cache_manager_example/flutter_cache_manager_example.dart
     - name: flutter_downloader_example
+      libraries:
+        - package:flutter_downloader_example/flutter_downloader_example.dart
     - name: flutter_staggered_grid_view_example
+      libraries:
+        - package:flutter_staggered_grid_view_example/flutter_staggered_grid_view_example.dart
     - name: flutter_svg_lottie_example
+      libraries:
+        - package:flutter_svg_lottie_example/flutter_svg_lottie_example.dart
     - name: http_example
+      libraries:
+        - package:http_example/http_example.dart
     - name: image_picker_example
+      libraries:
+        - package:image_picker_example/image_picker_example.dart
     - name: in_app_review_example
+      libraries:
+        - package:in_app_review_example/in_app_review_example.dart
     - name: get_it_example
+      libraries:
+        - package:get_it_example/get_it_example.dart
     - name: intl_logger_example
+      libraries:
+        - package:intl_logger_example/intl_logger_example.dart
 
   # To add assets to your application, add an assets section, like this:
   # assets:
